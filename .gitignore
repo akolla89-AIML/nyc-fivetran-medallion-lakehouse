@@ -20,3 +20,6 @@ Venv/
 
 #logs
 logs/
+
+#Databricks
+*.dbc
