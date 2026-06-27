@@ -1,11 +1,16 @@
 storage:
-    account: azdbaimlstorage01
-    container: lakehouse01
+  account: azdbaimlstorage01
+  container: lakehouse01
 
-paths:
-    landing_root: landing/hvfhv
-    initial_load: landing/hvfhv/initial
-    incremental_load: landing/hvfhv/incremental
+local:
+  staging_root: staging
+  incremental_source: staging/incremental/hvfhv
+  initial_source: staging/initial/hvfhv
+
+adls:
+  landing_root: landing/hvfhv
+  initial_load: landing/hvfhv/initial
+  incremental_load: landing/hvfhv/incremental
 
 simulation:
-    sleep_seconds: 2
+  sleep_seconds: 2
