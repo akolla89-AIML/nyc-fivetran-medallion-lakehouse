@@ -1,0 +1,9 @@
+#Azure SDK 
+azure-identity>=1.25.3
+Azure-storage-file-datalake>=12.25.0
+
+#Data Processing
+pandas>=2.3.3
+pyarrow>=21.0.0
+numpy>=2.0.2
+
