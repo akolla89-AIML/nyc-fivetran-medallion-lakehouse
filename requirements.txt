@@ -7,3 +7,5 @@ pandas>=2.3.3
 pyarrow>=21.0.0
 numpy>=2.0.2
 
+#python dependencies
+pyYAML>=6.0.3
